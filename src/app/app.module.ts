@@ -13,6 +13,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddEditTaskComponent } from './task/add-edit-task/add-edit-task.component';
 import { ShowTaskComponent } from './task/show-task/show-task.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './footer/about/about.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { ShowTaskComponent } from './task/show-task/show-task.component';
     TaskComponent,
     AddEditTaskComponent,
     ShowTaskComponent,
+    FooterComponent,
+    AboutComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
